@@ -30,7 +30,7 @@ const styles = {
   },
 };
 
-function Experience(props) {
+function Experience1(props) {
   const theme = useContext(ThemeContext);
   const { header } = props;
   const [data, setData] = useState(null);
@@ -105,8 +105,8 @@ function Experience(props) {
   );
 }
 
-Experience.propTypes = {
+Experience1.propTypes = {
   header: PropTypes.string.isRequired,
 };
 
-export default Experience;
+export default Experience1;

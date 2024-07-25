@@ -52,7 +52,7 @@ const Projects = (props) => {
                 <Button
                   style={styles.showMoreStyle}
                   variant={theme.bsSecondaryVariant}
-                  onClick={() => setShowMore(true)}
+                  onClick={() => setShowMore(false)}
                 >
                   show more
                 </Button>

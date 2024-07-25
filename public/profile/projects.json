@@ -1,150 +1,92 @@
 {
     "projects" : [
         {
-            "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "image" : "images/projects/Thesis.png",
+            "title": "Senior Thesis",
+            "bodyText": "- Impact of Quantum Computing on encryption.\n -   This paper explores the impact of quantum computing on traditional encryption methods, focusing on the vulnerabilities of the Rivest-Shamir-Adleman (RSA) algorithm. As quantum computers draw nearer to achieving practical application, their potential to break current cryptographic systems could drastically undermine data security.",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
-                },
-                {
-                    "text": "Live",
-                    "href": "https://mayankagarwal.me"
+                    "text": "PDF",
+                    "href": "https://drive.google.com/file/d/1JmL_Bsk0narkyKy4ztiLhN86t-YZETzN/view?usp=drive_link"
                 }
+                
             ],
             "tags" : [
-                "React",
-                "Portfolio",
-                "JavaScript"
+                "RSA",
+                "Cryptography",
+                "Quantum algorithms"
             ]
         },
         {
-            "image" : "images/projects/caaring-poster.png",
-            "title": "Caaring -  Cab Share App",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
+            "image" : "images/projects/truera-architecture-for-chatot-figure-1-1024x561.png",
+            "title": "Vector Embeddings",
+            "bodyText": "This project leveraged RAG Architecture, using the langchain libary in python. This project involved sourcing data from either pdf files or markdown files, then split to text chunks, coverted to vector embeddings using OpenAI api or llama 3 and stored within chromaDB a vector database.",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
-                },
-                {
-                    "text": "Live",
-                    "href": "http://caaring.herokuapp.com"
+                    "text": "Contact for source code",
+                    "href": "mailto:joel.gilpin.4@gmail.com"
                 }
+                
             ],
             "tags" : [
                 "Python",
-                "Django",
-                "BootStrap",
-                "SendGrid",
-                "Heroku",
-                "Gunicorn",
-                "VIT"
+                "langchain",
+                "Openapi",
+                "llama3api",
+                "ChromaDB",
+                "RAG"
+                
             ]
         },
         {
-            "image" : "images/projects/quiet-hours-poster.jpg",
-            "title": "Quiet Hours App",
-            "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
+            "image" : "images/projects/AR.jpg",
+            "title": "Augmented Realilty",
+            "bodyText": " Augmented reality (AR) application using Python and OpenCV. My goal was to project a 3D model onto a real-world image in real-time. I started by identifying a reference surface in the image, then used the ORB algorithm for feature extraction, description, and matching. By estimating the homography with RANSAC, I ensured accurate 3D projections onto the reference surface.",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/QuietHours-Android"
+                    "text": "Contact for source code",
+                    "href": "mailto:joel.gilpin.4@gmail.com"
                 }
             ],
             "tags" : [
-                "Java",
-                "Android",
-                "Alarm Manager",
-                "VIT"
+                "python",
+                "Opencv"
+                
             ]
         },
         {
-            "title": "Secure Chat App",
-            "bodyText": "- An Android App that allows users to send texts in real time.\n - End to End encryption using **RSA** Algorithm.\n - Uses **Firebase** database to store texts.\n - Secured with **Fingerprint** lock.",
+            "title": "Windows Updates & wake on Lan",
+            "bodyText": "I automated Windows updates and enabled Wake on LAN (WoL) to ensure systems stayed up-to-date and operational.\n- I leveraged Active Directory and Group Policy to push updates across the network, ensuring consistent configurations and compliance. I also enabled WoL by configuring BIOS/UEFI and network adapter settings, allowing remote wake-ups for off-hours updates. This approach minimized user disruption and maintained system readiness efficiently. ",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/SecureChatApp"
+                    "text": "Contact for source code",
+                    "href": "mailto:joel.gilpin.4@gmail.com"
                 }
             ],
             "tags" : [
-                "Java",
-                "Android",
-                "Firebase",
-                "RSA"
+                "Powershell",
+                "Active Directory",
+                "Networking"
+            
             ]
         },
         {
-            "title": "MVVM Sample App",
-            "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
+            "title": "ACl rules ",
+            "bodyText": "This project was to implement a flow cache and a simple flow firewall. These components were essential for network management and security, allowing for the efficient handling of network flows and the enforcement of access control rules.\n - Define Classes \n - Implement Hash Table \n - Implement Interval Tree \n - Parse ACL Rules \n - Packet Matching ",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
+                    "text": "Contact for source code",
+                    "href": "mailto:joel.gilpin.4@gmail.com"
                 }
             ],
             "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Room",
-                "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
-            ]
-        },
-        {
-            "title": "Feed List App",
-            "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Paging 3",
-                "Coroutines",
-                "Flow"
-            ]
-        },
-        {
-            "title": "Task Tracker",
-            "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/task-tracker-app"
-                }
-            ],
-            "tags" : [
-                "TypeScript",
-                "Angular 12",
-                "JavaScript"
-            ]
-        },
-        {
-            "title": "Image Encryption/Decryption",
-            "bodyText": "- A Web App for Image Encryption and Decryption made in **Django**.\n - Uses **SDES** algorithm for encryption/decryption.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/img-encrypt-sdes"
-                }
-            ],
-            "tags" : [
-                "Python",
-                "Django",
-                "SDES",
-                "Cryptography"
+                "C++",
+                "Networking",
+                "Data structures"
             ]
         }
+       
+        
+       
     ]
 }

@@ -1,33 +1,36 @@
 {
     "experiences": [
+
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Full-time",
-            "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
-            ],
-            "dateText": "06/20XX – Present"
-        },
-        {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Internship",
-            "workDescription": [
-                "Worked on abc."
-            ],
-            "dateText": "01/20XX – 05/20XX"
-        },
-        {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
+            "title": "Hardware Expert",
+            "subtitle": "Building computers",
             "workType": "Freelance",
             "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
+                "The assembly and configuration of custom-built computers tailored to specific user requirements. This includes the meticulous selection and integration of hardware components such as CPUs, GPUs, motherboards, RAM, storage solutions, and cooling systems, as well as the installation and optimization of software environments, including operating systems, drivers, and specialized applications to enhance performance and user experience."
             ],
-            "dateText": "09/20XX – 01/20YY"
+            "dateText": "09/2019 – 04/2022"
+        },
+        {
+            "title": "IT Assistant",
+            "subtitle": "Webster University",
+            "workType": "Part time (50%)",
+            "workDescription": [
+                "Maintence of systems - hardware and software.",
+                "Provided technical support to staff and students for a wide range of services, including comprehensive network troubleshooting and the configuration of VLANs and firewalls. Automated various processes using PowerShell and Python scripting."
+                
+            ],
+            "dateText": "02/2022 –  12/2023 "
+        },
+        {
+            "title": "IT Administrator",
+            "subtitle": "Webster University",
+            "workType": "Part time (60%)",
+            "workDescription": [
+                "Completing task effectively while being efficient lead me to a promotion. In this role I perform several of my old tasks but at more technical level. I now lead a team of 6, I asisgn and delegate to each of them according to their skillsets. ",
+                "Projects completed: Automated Windows updates via Active Directory using PowerShell, implemented Wake-on-LAN functionality with PowerShell, maintained documentation, managed files using Python scripts, and executed a domain migration. "
+            ],
+            "dateText": "12/2023 – Present"
         }
+       
     ]
 }
